@@ -7,9 +7,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class WhatsAppService {
 
-    private final String ACCOUNT_SID = " System.getenv(\"TWILIO_ACCOUNT_SID\")";
-    private final String AUTH_TOKEN = "System.getenv(\"TWILIO_AUTH_TOKEN\")";
-    private final String FROM_WHATSAPP = "whatsapp:+14155238886"; // sandbox Twilio
+    private final String ACCOUNT_SID =
+            System.getenv("TWILIO_ACCOUNT_SID");
+
+    private final String AUTH_TOKEN =
+            System.getenv("TWILIO_AUTH_TOKEN");
+
+    private final String FROM_WHATSAPP =
+            System.getenv("TWILIO_WHATSAPP_NUMBER");// sandbox Twilio
 
     public void sendWhatsApp(String phoneNumber, String messageBody) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
