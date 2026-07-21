@@ -69,6 +69,6 @@ Ajoutez ici des captures d'écran de l'application.
 
 ## 👨‍💻 Auteur
 
-**Anass Aziz El Hamess**
+**Abdellah Mims**
 
 Étudiant ingénieur en Génie Informatique à l'EMSI.# train-reservation-system
