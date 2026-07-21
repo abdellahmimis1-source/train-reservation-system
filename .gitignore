@@ -31,3 +31,25 @@ build/
 
 ### VS Code ###
 .vscode/
+### React / Node.js ###
+node_modules/
+train-frontend/node_modules/
+
+build/
+train-frontend/build/
+
+dist/
+train-frontend/dist/
+
+.env
+.env.*
+train-frontend/.env
+train-frontend/.env.*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.DS_Store
+Thumbs.db
